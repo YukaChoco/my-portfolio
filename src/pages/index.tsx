@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from 'next/image';
 import profileImage from "../images/profile_img.png";
+import HomeButton from "@/components/HomeButton";
 
 function Home() {
   return (
@@ -18,24 +19,9 @@ function Home() {
 
       </div>
       <div className="relative z-50">
-        <ul>
-          <li>
-            <Link href="/Profile">
-              Profile
-            </Link>
-          </li>
-          <li>
-            <Link href="/Contents">
-              Contents
-            </Link>
-          </li>
-          <li>
-            <Link href="/Experience">
-              Experience
-            </Link>
-          </li>
-        </ul>
-
+        <HomeButton pageName="Profile"></HomeButton>
+        <HomeButton pageName="Contents"></HomeButton>
+        <HomeButton pageName="Experience"></HomeButton>
       </div>
     </div>
   )

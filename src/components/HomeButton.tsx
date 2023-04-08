@@ -10,11 +10,11 @@ type Props = {
 
 const HomeButton = (prop: Props) => {
   return (
-    <Link href={"/" + prop.pageName} className=''>
-      <div className='bg-white/90 text-gray-400 text-4xl w-60 rounded-2xl'>
+    <div className='bg-white/90 text-gray-400 text-4xl rounded-2xl w-fit h-fit border-2 hover:border-black hover:text-black'>
+      <Link href={"/" + prop.pageName} className='block m-auto w-72 p-2'>
         {prop.pageName}
-      </div>
-    </Link>
+      </Link>
+    </div>
   )
 }
 

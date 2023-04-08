@@ -4,10 +4,10 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
-const Header = () => {
+function Header() {
   return (
     <div className='grid grid-cols-5 text-center h-12 bg-zinc-300'>
-      headerです
+      My Portfolio
       <Link href="/">
         Home
       </Link>

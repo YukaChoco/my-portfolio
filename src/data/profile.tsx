@@ -2,6 +2,23 @@ import { Data } from "@/types/global";
 
 const profileData:Data[] = [
     {
+        theme: 'Profile',
+        dataList: [
+            {
+                content: '名前: 藤堂 ゆうか',
+            },
+            {
+                content: '出身：大阪',
+            },
+            {
+                content: '生年月日: 2002.11.20',
+            },
+            {
+                content: '所属: 立命館大学情報理工学部3回生 25卒',
+            },
+        ]
+    },
+    {
         theme: 'Education',
         dataList: [
             {

@@ -7,8 +7,8 @@ import HeaderButton from './HeadeButton'
 
 function Header() {
   return (
-    <div className='grid grid-cols-4 text-center h-12 bg-zinc-300 text-gray-600 opacity-70'>
-      <Link href="/" className='text-3xl font-bold'>
+    <div className='grid grid-cols-4 text-center h-24 bg-zinc-300 text-gray-600 opacity-70'>
+      <Link href="/" className='text-5xl font-bold h-fit w-fit pl-16 my-auto'>
         My Portfolio
       </Link>
       <HeaderButton pageName='Profile'></HeaderButton>

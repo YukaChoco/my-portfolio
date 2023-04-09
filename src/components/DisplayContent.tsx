@@ -20,7 +20,24 @@ function DisplayContent() {
             {themeItem.dataList.map((item, j) => {
               return (
                 <div key={j} className='ml-16 py-4'>
-                  <h2 className="text-3xl">{item.content}</h2>
+                  <h2 className="text-3xl">
+                    {
+                      (() => {
+                        if (item.link != undefined) {
+                          return (
+                            <a href={item.link} className="hover:text-gray-500">{item.content}</a>
+                          )
+                        }
+                        else {
+                          return (
+                            <p>
+                              {item.content}
+                            </p>
+                          )
+                        }
+                      })()
+                    }
+                  </h2>
                   {
                     (() => {
                       if (typeof item.detail === 'string') {
@@ -33,7 +50,7 @@ function DisplayContent() {
                           <>
                             {item.detail.map((dataItem, k) => {
                               console.log(dataItem);
-                              return(
+                              return (
                                 <p className="text-3xl ml-8">{dataItem}</p>
                               )
                             })}

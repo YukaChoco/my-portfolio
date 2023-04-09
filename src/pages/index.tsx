@@ -36,17 +36,17 @@ function Home() {
           src={profileImage}
           placeholder="blur"
           quality={100}
-          className={"object-contain h-full w-fit "+(windowSize.height/windowSize.width>0.6?"opacity-50":"")}
+          className={"object-contain h-full w-fit " + (windowSize.height / windowSize.width > 0.6 ? "opacity-50" : "")}
         />
       </div>
       <div className="absolute right-[10vw] pl-[10vw] h-screen w-fit grid grid-rows-2 z-50 py-[20vh]">
-        <div className={'text-' + (windowSize.height/windowSize.width>0.6?"gray-500":"gray-600") + ' text-' + (windowSize.height/windowSize.width>1.3?"5xl":"[8vw]") +' align-middle font-bold rounded-2xl my-auto'}>
-            My Portfolio
+        <div className={(windowSize.height / windowSize.width > 0.6 ? "text-gray-500 " : "text-gray-600 ") + (windowSize.height / windowSize.width > 1.3 ? "text-5xl" : "text-[8vw]") + ' align-middle font-bold rounded-2xl my-auto'}>
+          My Portfolio
         </div>
         <div className="grid grid-rows-3">
-        <HomeButton pageName="Profile"></HomeButton>
-        <HomeButton pageName="Contents"></HomeButton>
-        <HomeButton pageName="Experience"></HomeButton>
+          <HomeButton pageName="Profile"></HomeButton>
+          <HomeButton pageName="Contents"></HomeButton>
+          <HomeButton pageName="Experience"></HomeButton>
         </div>
       </div>
     </div>

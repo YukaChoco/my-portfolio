@@ -37,3 +37,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 "# my-portfolio" 
+
+profile
+学校
+技術
+趣味
+SNSとかのリンク
+
+contents
+つくったもの一覧
+成果物の名前、サムネ画像、チームか個人か、概要
+おしたら詳細出てほしいけどその画面はまた今度
+
+Experience
+ハッカソンとか西園寺とかのなんかやったことかく 
+時系列で入学とかwatnow入ったとかもかきたい

@@ -10,7 +10,7 @@ type Props = {
 
 function HeaderButton(prop: Props) {
   return (
-    <Link href={"/" + prop.pageName} className='px-1 md:px-4 md:text-2xl text-xl h-full block my-auto hover:text-gray-400'>
+    <Link href={"/" + prop.pageName} className='px-1 min-[500px]:px-2 md:px-4 md:text-2xl text-xl h-full block my-auto hover:text-gray-400'>
       <div className='pt-4'>
         {prop.pageName}
       </div>

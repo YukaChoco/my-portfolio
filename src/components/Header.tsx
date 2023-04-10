@@ -7,13 +7,17 @@ import HeaderButton from './HeadeButton'
 
 function Header() {
   return (
-    <div className='grid grid-cols-4 text-center h-24 bg-zinc-300 text-gray-600 opacity-70'>
-      <Link href="/" className='text-5xl font-bold h-fit w-fit pl-16 my-auto'>
-        My Portfolio
-      </Link>
-      <HeaderButton pageName='Profile'></HeaderButton>
-      <HeaderButton pageName='Contents'></HeaderButton>
-      <HeaderButton pageName='Experience'></HeaderButton>
+    <div className='fixed'>
+      <div className='relative grid grid-rows-2 text-center h-16 w-screen bg-zinc-300 text-gray-600 opacity-90'>
+        <Link href="/" className='absolute min-[500px]:text-3xl text-2xl font-bold h-fit left-2 md:left-16 min-[500px]:left-8 py-3'>
+          My Portfolio
+        </Link>
+        <div className='absolute right-2 min-[500px]:right-8 flex h-full'>
+          <HeaderButton pageName='Profile'></HeaderButton>
+          <HeaderButton pageName='Contents'></HeaderButton>
+          <HeaderButton pageName='Experience'></HeaderButton>
+        </div>
+      </div>
     </div>
   )
 }

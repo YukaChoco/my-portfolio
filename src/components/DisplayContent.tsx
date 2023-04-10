@@ -16,8 +16,8 @@ function DisplayContent(prop:Props) {
     <div>
       {contentData.map((themeItem, i) => {
         return (
-          <div key={i} className='py-16'>
-            <h1 className="text-3xl py-8 font-semibold">{themeItem.theme}</h1>
+          <div key={i} className='pt-4 pb-16'>
+            <h1 className="text-3xl pt-8 pb-4 font-semibold">{themeItem.theme}</h1>
             {themeItem.dataList.map((item, j) => {
               return (
                 <div key={j} className='ml-16 py-4'>

@@ -4,9 +4,9 @@ import contentData from '../data/contents'
 
 function Contents() {
   return (
-    <div className='w-full bg-zinc-100 min-h-screen'>
+    <div className='w-full bg-zinc-100 min-h-screen h-fit'>
       <Header></Header>
-      <div className='px-[10vw]  py-28'>
+      <div className='pt-16 px-[10vw]'>
         {contentData.map((item,i)=>{
           return(
             <ContentsCard

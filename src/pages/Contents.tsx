@@ -14,6 +14,7 @@ function Contents() {
               img={item.img}
               type={item.type}
               detail={item.detail}
+              link={item.link}
             ></ContentsCard>
           )
         })}

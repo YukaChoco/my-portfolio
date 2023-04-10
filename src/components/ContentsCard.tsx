@@ -8,9 +8,10 @@ import { Content } from '@/types/global'
 import img from '../../public/tidyIconImg.jpeg'
 
 function ContentsCard(prop: Content) {
+  console.log(typeof prop.link=="string");
   return (
     // <Link href={"/Contents/"+prop.theme}>
-    <Link href="/Contents">
+    <Link href={typeof prop.link=="string"?prop.link:"/Contents"}>
       <div className="my-12 bg-white rounded-xl shadow-md overflow-hidden max-w-full md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
         <div className="md:grid md:grid-cols-[2fr_3fr]">
           <div className="m-auto md:shrink-0">

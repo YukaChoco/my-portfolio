@@ -11,6 +11,7 @@ function Contents() {
           return(
             <ContentsCard
               theme={item.theme}
+              img={item.img}
               type={item.type}
               detail={item.detail}
             ></ContentsCard>

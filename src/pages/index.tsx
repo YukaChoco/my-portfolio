@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image';
-import profileImage from "../images/profile_img.png";
+import profileImage from "../../public/profile_img.png";
 import HomeButton from "@/components/HomeButton";
 import { useEffect, useState } from "react";
 

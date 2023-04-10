@@ -8,6 +8,8 @@ export interface Data {
 }[]
 export interface Content {
     theme: string;
+    img: string;
     type: "team" | "individual";
     detail: string;
+    link?: string;
 }[]

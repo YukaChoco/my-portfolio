@@ -7,7 +7,7 @@ function Profile() {
   return (
     <div className='w-full bg-zinc-100 min-h-full'>
       <Header></Header>
-      <div className='px-[10vw]'>
+      <div className='pt-16 px-[10vw]'>
         <DisplayContent contentData={profileData}></DisplayContent>
       </div>
     </div>

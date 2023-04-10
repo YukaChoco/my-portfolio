@@ -6,7 +6,7 @@ function Contents() {
   return (
     <div className='w-full bg-zinc-100 min-h-screen h-fit'>
       <Header></Header>
-      <div className='pt-16 px-[10vw]'>
+      <div className='pt-16 pb-12 px-[10vw]'>
         {contentData.map((item,i)=>{
           return(
             <ContentsCard

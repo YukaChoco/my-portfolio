@@ -3,17 +3,18 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import HeaderButton from './HeadeButton'
-import profileData from '../data/profile'
 import React from 'react'
+import { Data } from '@/types/global'
 
 type Props = {
-  pageName: string
+  contentData: Data[]
 }
 
-function DisplayContent() {
+function DisplayContent(prop:Props) {
+  const contentData = prop.contentData;
   return (
     <div>
-      {profileData.map((themeItem, i) => {
+      {contentData.map((themeItem, i) => {
         return (
           <div key={i} className='py-16'>
             <h1 className="text-4xl py-8 font-semibold">{themeItem.theme}</h1>
@@ -42,7 +43,7 @@ function DisplayContent() {
                     (() => {
                       if (typeof item.detail === 'string') {
                         return (
-                          <p className="text-3xl ml-8">{item.detail}</p>
+                          <p className="text-3xl ml-8 pt-2">{item.detail}</p>
                         )
                       }
                       else if (Array.isArray(item.detail) && typeof item.detail[0] === 'string') {
@@ -51,7 +52,7 @@ function DisplayContent() {
                             {item.detail.map((dataItem, k) => {
                               console.log(dataItem);
                               return (
-                                <p className="text-3xl ml-8">{dataItem}</p>
+                                <p className="text-3xl ml-8 pt-2">{dataItem}</p>
                               )
                             })}
                           </>

@@ -1,13 +1,14 @@
 import DisplayContent from '../components/DisplayContent';
 import Header from '../components/Header';
 import React from 'react';
+import profileData from '../data/profile'
 
 function Profile() {
   return (
-    <div className='w-full bg-zinc-100 py-28'>
+    <div className='w-full bg-zinc-100 min-h-full'>
       <Header></Header>
       <div className='px-72'>
-        <DisplayContent></DisplayContent>
+        <DisplayContent contentData={profileData}></DisplayContent>
       </div>
     </div>
   )

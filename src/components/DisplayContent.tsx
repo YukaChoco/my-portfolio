@@ -17,11 +17,11 @@ function DisplayContent(prop:Props) {
       {contentData.map((themeItem, i) => {
         return (
           <div key={i} className='py-16'>
-            <h1 className="text-4xl py-8 font-semibold">{themeItem.theme}</h1>
+            <h1 className="text-3xl py-8 font-semibold">{themeItem.theme}</h1>
             {themeItem.dataList.map((item, j) => {
               return (
                 <div key={j} className='ml-16 py-4'>
-                  <h2 className="text-3xl">
+                  <h2 className="text-2xl">
                     {
                       (() => {
                         if (item.link != undefined) {
@@ -43,7 +43,7 @@ function DisplayContent(prop:Props) {
                     (() => {
                       if (typeof item.detail === 'string') {
                         return (
-                          <p className="text-3xl ml-8 pt-2">{item.detail}</p>
+                          <p className="text-2xl ml-8 pt-2">{item.detail}</p>
                         )
                       }
                       else if (Array.isArray(item.detail) && typeof item.detail[0] === 'string') {
@@ -52,7 +52,7 @@ function DisplayContent(prop:Props) {
                             {item.detail.map((dataItem, k) => {
                               console.log(dataItem);
                               return (
-                                <p className="text-3xl ml-8 pt-2">{dataItem}</p>
+                                <p className="text-2xl ml-8 pt-2">{dataItem}</p>
                               )
                             })}
                           </>

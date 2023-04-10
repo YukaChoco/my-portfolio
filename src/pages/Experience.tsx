@@ -6,7 +6,7 @@ function Experience() {
   return (
     <div className='w-full bg-zinc-100 min-h-full'>
       <Header></Header>
-      <div className='px-72'>
+      <div className='px-[10vw]'>
         <DisplayContent contentData={experienceData}></DisplayContent>
       </div>
     </div>

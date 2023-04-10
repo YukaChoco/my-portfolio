@@ -6,7 +6,7 @@ function Contents() {
   return (
     <div className='w-full bg-zinc-100 min-h-screen'>
       <Header></Header>
-      <div className='mx-72  py-28'>
+      <div className='px-[10vw]  py-28'>
         {contentData.map((item,i)=>{
           return(
             <ContentsCard

@@ -6,3 +6,8 @@ export interface Data {
         detail?: string | string[];
     }[];
 }[]
+export interface Content {
+    theme: string;
+    type: "team" | "individual";
+    detail: string;
+}[]

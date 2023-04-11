@@ -39,7 +39,7 @@ function Home() {
           className={"object-contain h-full w-fit " + (windowSize.height / windowSize.width > 0.6 ? "opacity-50" : "")}
         />
       </div>
-      <div className="absolute right-[10vw] pl-[10vw] h-screen w-fit grid grid-rows-2 z-50 py-[20vh]">
+      <div className="absolute right-[10vw] pl-[10vw] h-screen w-fit grid grid-rows-[2fr_3fr] gap-5 z-50 py-[10vh]">
         <div className={(windowSize.height / windowSize.width > 0.6 ? "text-gray-500 " : "text-gray-600 ") + (windowSize.height / windowSize.width > 1.3 ? "text-5xl" : "text-[8vw]") + ' align-middle font-bold rounded-2xl my-auto'}>
           My Portfolio
         </div>

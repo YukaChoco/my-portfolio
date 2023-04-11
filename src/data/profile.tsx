@@ -5,7 +5,7 @@ const profileData:Data[] = [
         theme: 'Profile',
         dataList: [
             {
-                content: '名前: 藤堂 ゆうか',
+                content: '名前: 藤堂 ゆうか / とうどう ゆうか',
             },
             {
                 content: '出身：大阪',
@@ -23,20 +23,20 @@ const profileData:Data[] = [
         dataList: [
             {
                 content: '鷺洲小学校',
-                link: '',
+                link: 'http://swa.city-osaka.ed.jp/swas/index.php?id=e531065',
             },
             {
                 content: '八阪中学校',
-                link: '',
+                link: 'http://swa.city-osaka.ed.jp/swas/index.php?id=j532060',
             },
             {
                 content: '茨木高校',
-                link: '',
+                link: 'https://www2.osaka-c.ed.jp/ibaraki/',
                 detail: '文理学科'
             },
             {
                 content: '立命館大学',
-                link: '',
+                link: 'https://www.ritsumei.ac.jp/ise/',
                 detail: ['情報理工学部情報理工学科','画像・音メディアコース']
             },
         ]

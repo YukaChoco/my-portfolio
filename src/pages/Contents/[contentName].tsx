@@ -14,7 +14,12 @@ function Contents() {
     return (
       <div className='w-full bg-zinc-100 min-h-screen h-fit'>
         <Header></Header>
-        <ContentDetails></ContentDetails>
+        {contentData.map((item,index)=>{
+          return(
+            // <div>{item.theme}</div>
+            <ContentDetails contentData={item}></ContentDetails>
+          )
+        })}
       </div>
     );
   }

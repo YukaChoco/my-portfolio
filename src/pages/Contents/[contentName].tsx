@@ -16,7 +16,6 @@ function Contents() {
         <Header></Header>
         {contentData.map((item,index)=>{
           return(
-            // <div>{item.theme}</div>
             <ContentDetails contentData={item}></ContentDetails>
           )
         })}

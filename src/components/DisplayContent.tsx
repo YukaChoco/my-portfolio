@@ -68,20 +68,6 @@ function DisplayContent(prop:Props) {
         )
       })}
     </div>
-    //   <div>
-    //     {profileData.map((themeItem, i) => (
-
-    //       <h1>{themeItem.theme}</h1>
-    //     {
-    //         themeItem.dataList.map((item, j) => (
-    //           <div key={j} className="my-4">
-    //             <h2 className="text-[4vh] font-semibold">{item.content}</h2>
-    //             <p className="text-[3vh] ml-4">{item.detailt}</p>
-    //           </div>
-    //         ))
-    //       }
-    //     ))}
-    //   </div>
   )
 }
 

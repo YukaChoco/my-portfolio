@@ -7,7 +7,7 @@ import HeaderButton from './HeaderButton'
 
 function Header() {
   return (
-    <div className='fixed'>
+    <div className='fixed  z-10'>
       <div className='relative grid grid-rows-2 text-center h-16 w-screen bg-zinc-300 text-gray-600 opacity-90'>
         <Link href="/" className='absolute min-[500px]:text-3xl text-2xl font-bold h-fit left-2 md:left-16 min-[500px]:left-8 py-3'>
           My Portfolio

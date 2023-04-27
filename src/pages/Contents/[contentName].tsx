@@ -16,7 +16,7 @@ function Contents() {
         <Header></Header>
         {contentData.map((item,index)=>{
           return(
-            <ContentDetails contentData={item}></ContentDetails>
+            <ContentDetails contentData={item} key={index}></ContentDetails>
           )
         })}
       </div>

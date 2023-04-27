@@ -52,7 +52,7 @@ function DisplayContent(prop:Props) {
                             {item.detail.map((dataItem, k) => {
                               console.log(dataItem);
                               return (
-                                <p className="text-2xl ml-8 pt-2">{dataItem}</p>
+                                <p key={k} className="text-2xl ml-8 pt-2">{dataItem}</p>
                               )
                             })}
                           </>

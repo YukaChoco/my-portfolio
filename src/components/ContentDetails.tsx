@@ -1,5 +1,6 @@
 import { Content } from '@/types/global';
 import Image from 'next/image'
+import Link from 'next/link';
 
 type Props = {
   contentData: Content;
@@ -16,6 +17,7 @@ function ContentDetails({ contentData, key }: Props) {
         <div className={"absolute border-2 right-12 top-8 py-1 px-3 rounded-3xl uppercase w-fit tracking-wide text-base " + (contentData.type=="team"?"text-indigo-500":"text-yellow-400") + " " + (contentData.type=="team"?"border-indigo-500":"border-yellow-400") + " font-bold"}>{contentData.type}</div>
         <div className='pt-8 text-3xl font-bold border-b-2 border-black'>{contentData.theme}</div>
         <div className='pt-2 pl-2'>{contentData.detail}</div>
+        <Link href={typeof contentData.link=="string"?contentData.link:"/Contents"}>{contentData.link}</Link>
       </div>
     </div>
   );

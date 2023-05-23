@@ -16,7 +16,7 @@ function ContentsCard(props: Props) {
   console.log(typeof contentData.link=="string");
   return (
     // <Link href={"/Contents/"+contentData.theme}>
-    <Link href={typeof contentData.link=="string"?contentData.link:"/Contents"}>
+    <Link href={"/Contents/"+contentData.theme}>
       <div className="my-12 bg-white rounded-xl shadow-md overflow-hidden max-w-full md:flex-row hover:bg-gray-100">
         <div className="md:grid md:grid-cols-[2fr_3fr]">
           <div className="m-auto md:shrink-0">

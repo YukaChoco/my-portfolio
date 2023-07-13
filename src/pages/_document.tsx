@@ -8,6 +8,7 @@ export default function Document() {
         <meta name="description" content="藤堂ゆうかのポートフォリオサイトです。プロフィールや成果物などをまとめています。" />
         <meta property="og:title" content="MyPortfolio" />
         <meta property="og:description" content="藤堂ゆうかのポートフォリオサイトです。プロフィールや成果物などをまとめています。" />
+        <meta property="og:image" content="/portfolio.png" />
       </Head>
       <body>
         <Main />

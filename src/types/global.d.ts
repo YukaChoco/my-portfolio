@@ -5,7 +5,8 @@ export interface Data {
         link?: string;
         detail?: string | string[];
     }[];
-}[]
+}[];
+
 export interface Content {
     theme: string;
     img: string;
@@ -19,4 +20,4 @@ export interface Content {
     detail: string;
     comment: string;
     link?: string;
-}[]
+}[];

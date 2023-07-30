@@ -25,7 +25,7 @@ function DisplayContent(prop: Props) {
                   (() => {
                     if (item.link != undefined) {
                       return (
-                        <a href={item.link} className="hover:text-gray-500">{item.content}</a>
+                        <Link href={item.link} className="hover:text-gray-500">{item.content}</Link>
                       )
                     }
                     else {

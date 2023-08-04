@@ -49,7 +49,6 @@ function DisplayContent(prop: Props) {
                     return (
                       <>
                         {item.detail.map((dataItem, k) => {
-                          console.log(dataItem);
                           return (
                             <p key={k} className="text-2xl ml-8 pt-2">{dataItem}</p>
                           )

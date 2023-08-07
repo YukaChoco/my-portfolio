@@ -10,7 +10,7 @@ type Props = {
 
 function HomeButton(prop: Props) {
   return (
-    <div className='bg-white/90 text-gray-400 md:text-4xl text-3xl rounded-2xl w-fit h-fit border-2 hover:border-black hover:text-black m-auto'>
+    <div className='bg-white/90 text-gray-700 md:text-4xl text-3xl rounded-2xl w-fit h-fit border-2 hover:border-black hover:text-black m-auto'>
       <Link href={"/" + prop.pageName} className='block m-auto w-72 p-2'>
         {prop.pageName}
       </Link>

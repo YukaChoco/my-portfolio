@@ -40,7 +40,7 @@ function Home() {
         />
       </div>
       <div className="absolute right-[10vw] pl-[10vw] h-screen w-fit grid grid-rows-[2fr_3fr] gap-5 z-50 py-[10vh]">
-        <h1 className={(windowSize.height / windowSize.width > 0.6 ? "text-gray-500 " : "text-gray-600 ") + (windowSize.height / windowSize.width > 1.3 ? "text-5xl" : "text-[8vw]") + ' align-middle font-bold rounded-2xl my-auto'}>
+        <h1 className={(windowSize.height / windowSize.width > 0.6 ? "text-gray-500 " : "text-gray-700 ") + (windowSize.height / windowSize.width > 1.3 ? "text-5xl" : "text-[8vw]") + ' align-middle font-bold rounded-2xl my-auto'}>
           My Portfolio
         </h1>
         <div className="grid grid-rows-3">

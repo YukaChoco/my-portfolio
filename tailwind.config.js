@@ -7,8 +7,7 @@ module.exports = {
   plugins: [],
 }
 module.exports = {
-  darkMode: false, // 'media' or 'class'
-  purge: {
+  content: {
     content: [
       './src/pages/**/*.{js,ts,jsx,tsx}',
       './src/components/**/*.{js,ts,jsx,tsx}'
@@ -29,7 +28,7 @@ module.exports = {
 module.exports = {
   mode: 'jit',
   darkMode: false, // 'media' or 'class',
-  purge: {
+  content: {
     content: [
       './src/pages/**/*.{js,ts,jsx,tsx}',
       './src/components/**/*.{js,ts,jsx,tsx}'

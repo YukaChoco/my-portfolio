@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import HeaderButton from './HeaderButton'
 import React, { useState } from 'react'
-import { Content } from '@/types/global'
+import type { Content } from '@/types/global'
 import img from '../../public/tidyIconImg.jpeg'
 
 type Props = {

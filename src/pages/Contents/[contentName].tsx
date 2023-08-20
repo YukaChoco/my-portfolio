@@ -2,7 +2,7 @@ import DisplayContent from '@/components/DisplayContent';
 import Header from '../../components/Header';
 import ContentDetails from '../../components/ContentDetails'
 import { useRouter } from 'next/router';
-import { Content } from "@/types/global";
+import type { Content } from "@/types/global";
 import Data from '../../data/contents';
 
 function Contents() {

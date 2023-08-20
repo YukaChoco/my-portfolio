@@ -1,4 +1,4 @@
-import { Data } from "@/types/global";
+import type { Data } from "@/types/global";
 
 const profileData: Data[] = [
     {

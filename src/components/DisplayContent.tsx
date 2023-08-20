@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import HeaderButton from './HeaderButton'
 import React from 'react'
-import { Data } from '@/types/global'
+import type { Data } from '@/types/global'
 
 type Props = {
   contentData: Data[]

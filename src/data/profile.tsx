@@ -51,6 +51,9 @@ const profileData:Data[] = [
                 content: 'React',
             },
             {
+                content: 'Next.js',
+            },
+            {
                 content: 'TypeScript',
             },
             {
@@ -61,6 +64,12 @@ const profileData:Data[] = [
             },
             {
                 content: 'GitHub',
+            },
+            {
+                content: 'Processing',
+            },
+            {
+                content: 'Unity',
             },
         ]
     },
@@ -81,6 +90,9 @@ const profileData:Data[] = [
             },
             {
                 content: 'お菓子作り',
+            },
+            {
+                content: 'フロントエンド開発',
             },
         ]
     },

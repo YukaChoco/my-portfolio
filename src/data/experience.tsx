@@ -1,16 +1,16 @@
 import type { Data } from "@/types/global";
 
-const profileData: Data[] = [
+const experienceData: Data[] = [
     {
         theme: '2021',
         dataList: [
             {
                 content: '4月',
-                detail: ['立命館大学情報理工学部 入学', '株式会社 ジェイアール西日本フードサービスネット 入社(アルバイト) / 以降2年間勤務','>デリカフェ・キッチン大阪にてカフェの接客・レジ・調理に従事']
+                detail: ['立命館大学情報理工学部 入学', '株式会社 ジェイアール西日本フードサービスネット (アルバイト) / 2年間勤務','>デリカフェ・キッチン大阪にてカフェの接客・レジ・調理に従事']
             },
             {
                 content: '8月',
-                detail: ['株式会社 王将フードサービス 入社(アルバイト) / 以降1年間半勤務','>餃子の王将福島店にて接客・レジ・調理に従事']
+                detail: ['株式会社 王将フードサービス (アルバイト) / 1年間半勤務','>餃子の王将福島店にて接客・レジ・調理に従事']
             },
             {
                 content: '12月',
@@ -46,8 +46,16 @@ const profileData: Data[] = [
                 content: '3月',
                 detail: 'ハックツハッカソン アロカップ 参加'
             },
+            {
+                content: '5月',
+                detail: ['株式会社Inazma 受託開発 / 4か月勤務','>医療機関向けの予約管理アプリケーションの開発に従事']
+            },
+            {
+                content: '8月',
+                detail: ['株式会社楽天グループ 就業型インターン / 1か月勤務','>アプリケーションエンジニアとして社内システムの開発に従事']
+            },
         ]
     },
 ]
 
-export default profileData;
+export default experienceData;
